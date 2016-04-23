@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CEA4E51C0253470041DCC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA4E41C0253470041DCC9 /* main.cpp */; };
+		96CEA5171C0620910041DCC9 /* Barbarian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5011C0620910041DCC9 /* Barbarian.cpp */; };
+		96CEA5181C0620910041DCC9 /* BlueMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5031C0620910041DCC9 /* BlueMan.cpp */; };
+		96CEA5191C0620910041DCC9 /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5051C0620910041DCC9 /* Creature.cpp */; };
+		96CEA51A1C0620910041DCC9 /* Dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5071C0620910041DCC9 /* Dice.cpp */; };
+		96CEA51C1C0620910041DCC9 /* Goblin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA50B1C0620910041DCC9 /* Goblin.cpp */; };
+		96CEA51D1C0620910041DCC9 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA50D1C0620910041DCC9 /* Menu.cpp */; };
+		96CEA51F1C0620910041DCC9 /* Reptile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5111C0620910041DCC9 /* Reptile.cpp */; };
+		96CEA5201C0620910041DCC9 /* Shadow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5131C0620910041DCC9 /* Shadow.cpp */; };
+		96CEA5241C0621B60041DCC9 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5221C0621B60041DCC9 /* Room.cpp */; };
+		96CEA5271C062E1A0041DCC9 /* RoomOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5251C062E1A0041DCC9 /* RoomOne.cpp */; };
+		96CEA52A1C06390F0041DCC9 /* RoomTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5281C06390F0041DCC9 /* RoomTwo.cpp */; };
+		96CEA52D1C0639DB0041DCC9 /* RoomThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA52B1C0639DB0041DCC9 /* RoomThree.cpp */; };
+		96CEA5301C063A940041DCC9 /* RoomFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA52E1C063A940041DCC9 /* RoomFour.cpp */; };
+		96CEA5331C063B2D0041DCC9 /* RoomFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5311C063B2D0041DCC9 /* RoomFive.cpp */; };
+		96CEA5391C063D550041DCC9 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5371C063D550041DCC9 /* Map.cpp */; };
+		96CEA53C1C0658840041DCC9 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA53A1C0658840041DCC9 /* Game.cpp */; };
+		96CEA53F1C075AFB0041DCC9 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA53D1C075AFB0041DCC9 /* Player.cpp */; };
+		96CEA5421C08A8B70041DCC9 /* Weapons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5401C08A8B70041DCC9 /* Weapons.cpp */; };
+		96CEA5481C08B83D0041DCC9 /* BattleAxe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5461C08B83D0041DCC9 /* BattleAxe.cpp */; };
+		96CEA54B1C08C1CA0041DCC9 /* Shield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5491C08C1CA0041DCC9 /* Shield.cpp */; };
+		96CEA54E1C08C5BF0041DCC9 /* Mace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA54C1C08C5BF0041DCC9 /* Mace.cpp */; };
+		96CEA5511C08C7190041DCC9 /* Sword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA54F1C08C7190041DCC9 /* Sword.cpp */; };
+		96CEA5541C08C84A0041DCC9 /* RiotGear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CEA5521C08C84A0041DCC9 /* RiotGear.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96CEA4DF1C0253470041DCC9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96CEA4E11C0253470041DCC9 /* Final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Final; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CEA4E41C0253470041DCC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		96CEA5011C0620910041DCC9 /* Barbarian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Barbarian.cpp; sourceTree = "<group>"; };
+		96CEA5021C0620910041DCC9 /* Barbarian.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Barbarian.hpp; sourceTree = "<group>"; };
+		96CEA5031C0620910041DCC9 /* BlueMan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlueMan.cpp; sourceTree = "<group>"; };
+		96CEA5041C0620910041DCC9 /* BlueMan.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlueMan.hpp; sourceTree = "<group>"; };
+		96CEA5051C0620910041DCC9 /* Creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = "<group>"; };
+		96CEA5061C0620910041DCC9 /* Creature.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Creature.hpp; sourceTree = "<group>"; };
+		96CEA5071C0620910041DCC9 /* Dice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dice.cpp; sourceTree = "<group>"; };
+		96CEA5081C0620910041DCC9 /* Dice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dice.hpp; sourceTree = "<group>"; };
+		96CEA50B1C0620910041DCC9 /* Goblin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Goblin.cpp; sourceTree = "<group>"; };
+		96CEA50C1C0620910041DCC9 /* Goblin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Goblin.hpp; sourceTree = "<group>"; };
+		96CEA50D1C0620910041DCC9 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		96CEA50E1C0620910041DCC9 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		96CEA5111C0620910041DCC9 /* Reptile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Reptile.cpp; sourceTree = "<group>"; };
+		96CEA5121C0620910041DCC9 /* Reptile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Reptile.hpp; sourceTree = "<group>"; };
+		96CEA5131C0620910041DCC9 /* Shadow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shadow.cpp; sourceTree = "<group>"; };
+		96CEA5141C0620910041DCC9 /* Shadow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shadow.hpp; sourceTree = "<group>"; };
+		96CEA5221C0621B60041DCC9 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		96CEA5231C0621B60041DCC9 /* Room.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Room.hpp; sourceTree = "<group>"; };
+		96CEA5251C062E1A0041DCC9 /* RoomOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomOne.cpp; sourceTree = "<group>"; };
+		96CEA5261C062E1A0041DCC9 /* RoomOne.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoomOne.hpp; sourceTree = "<group>"; };
+		96CEA5281C06390F0041DCC9 /* RoomTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomTwo.cpp; sourceTree = "<group>"; };
+		96CEA5291C06390F0041DCC9 /* RoomTwo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoomTwo.hpp; sourceTree = "<group>"; };
+		96CEA52B1C0639DB0041DCC9 /* RoomThree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomThree.cpp; sourceTree = "<group>"; };
+		96CEA52C1C0639DB0041DCC9 /* RoomThree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoomThree.hpp; sourceTree = "<group>"; };
+		96CEA52E1C063A940041DCC9 /* RoomFour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomFour.cpp; sourceTree = "<group>"; };
+		96CEA52F1C063A940041DCC9 /* RoomFour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoomFour.hpp; sourceTree = "<group>"; };
+		96CEA5311C063B2D0041DCC9 /* RoomFive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RoomFive.cpp; sourceTree = "<group>"; };
+		96CEA5321C063B2D0041DCC9 /* RoomFive.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RoomFive.hpp; sourceTree = "<group>"; };
+		96CEA5371C063D550041DCC9 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		96CEA5381C063D550041DCC9 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		96CEA53A1C0658840041DCC9 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		96CEA53B1C0658840041DCC9 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		96CEA53D1C075AFB0041DCC9 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		96CEA53E1C075AFB0041DCC9 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		96CEA5401C08A8B70041DCC9 /* Weapons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapons.cpp; sourceTree = "<group>"; };
+		96CEA5411C08A8B70041DCC9 /* Weapons.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Weapons.hpp; sourceTree = "<group>"; };
+		96CEA5461C08B83D0041DCC9 /* BattleAxe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleAxe.cpp; sourceTree = "<group>"; };
+		96CEA5471C08B83D0041DCC9 /* BattleAxe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BattleAxe.hpp; sourceTree = "<group>"; };
+		96CEA5491C08C1CA0041DCC9 /* Shield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shield.cpp; sourceTree = "<group>"; };
+		96CEA54A1C08C1CA0041DCC9 /* Shield.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shield.hpp; sourceTree = "<group>"; };
+		96CEA54C1C08C5BF0041DCC9 /* Mace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mace.cpp; sourceTree = "<group>"; };
+		96CEA54D1C08C5BF0041DCC9 /* Mace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mace.hpp; sourceTree = "<group>"; };
+		96CEA54F1C08C7190041DCC9 /* Sword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sword.cpp; sourceTree = "<group>"; };
+		96CEA5501C08C7190041DCC9 /* Sword.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sword.hpp; sourceTree = "<group>"; };
+		96CEA5521C08C84A0041DCC9 /* RiotGear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RiotGear.cpp; sourceTree = "<group>"; };
+		96CEA5531C08C84A0041DCC9 /* RiotGear.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RiotGear.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CEA4DE1C0253470041DCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CEA4D81C0253470041DCC9 = {
+			isa = PBXGroup;
+			children = (
+				96CEA4E31C0253470041DCC9 /* Final */,
+				96CEA4E21C0253470041DCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CEA4E21C0253470041DCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CEA4E11C0253470041DCC9 /* Final */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CEA4E31C0253470041DCC9 /* Final */ = {
+			isa = PBXGroup;
+			children = (
+				96CEA4E41C0253470041DCC9 /* main.cpp */,
+				96CEA5011C0620910041DCC9 /* Barbarian.cpp */,
+				96CEA5021C0620910041DCC9 /* Barbarian.hpp */,
+				96CEA5031C0620910041DCC9 /* BlueMan.cpp */,
+				96CEA5041C0620910041DCC9 /* BlueMan.hpp */,
+				96CEA5051C0620910041DCC9 /* Creature.cpp */,
+				96CEA5061C0620910041DCC9 /* Creature.hpp */,
+				96CEA5071C0620910041DCC9 /* Dice.cpp */,
+				96CEA5081C0620910041DCC9 /* Dice.hpp */,
+				96CEA50B1C0620910041DCC9 /* Goblin.cpp */,
+				96CEA50C1C0620910041DCC9 /* Goblin.hpp */,
+				96CEA50D1C0620910041DCC9 /* Menu.cpp */,
+				96CEA50E1C0620910041DCC9 /* Menu.hpp */,
+				96CEA5111C0620910041DCC9 /* Reptile.cpp */,
+				96CEA5121C0620910041DCC9 /* Reptile.hpp */,
+				96CEA5131C0620910041DCC9 /* Shadow.cpp */,
+				96CEA5141C0620910041DCC9 /* Shadow.hpp */,
+				96CEA5401C08A8B70041DCC9 /* Weapons.cpp */,
+				96CEA5411C08A8B70041DCC9 /* Weapons.hpp */,
+				96CEA5521C08C84A0041DCC9 /* RiotGear.cpp */,
+				96CEA5531C08C84A0041DCC9 /* RiotGear.hpp */,
+				96CEA5461C08B83D0041DCC9 /* BattleAxe.cpp */,
+				96CEA5471C08B83D0041DCC9 /* BattleAxe.hpp */,
+				96CEA5491C08C1CA0041DCC9 /* Shield.cpp */,
+				96CEA54A1C08C1CA0041DCC9 /* Shield.hpp */,
+				96CEA54C1C08C5BF0041DCC9 /* Mace.cpp */,
+				96CEA54D1C08C5BF0041DCC9 /* Mace.hpp */,
+				96CEA54F1C08C7190041DCC9 /* Sword.cpp */,
+				96CEA5501C08C7190041DCC9 /* Sword.hpp */,
+				96CEA53D1C075AFB0041DCC9 /* Player.cpp */,
+				96CEA53E1C075AFB0041DCC9 /* Player.hpp */,
+				96CEA5221C0621B60041DCC9 /* Room.cpp */,
+				96CEA5231C0621B60041DCC9 /* Room.hpp */,
+				96CEA5251C062E1A0041DCC9 /* RoomOne.cpp */,
+				96CEA5261C062E1A0041DCC9 /* RoomOne.hpp */,
+				96CEA5281C06390F0041DCC9 /* RoomTwo.cpp */,
+				96CEA5291C06390F0041DCC9 /* RoomTwo.hpp */,
+				96CEA52B1C0639DB0041DCC9 /* RoomThree.cpp */,
+				96CEA52C1C0639DB0041DCC9 /* RoomThree.hpp */,
+				96CEA52E1C063A940041DCC9 /* RoomFour.cpp */,
+				96CEA52F1C063A940041DCC9 /* RoomFour.hpp */,
+				96CEA5311C063B2D0041DCC9 /* RoomFive.cpp */,
+				96CEA5321C063B2D0041DCC9 /* RoomFive.hpp */,
+				96CEA5371C063D550041DCC9 /* Map.cpp */,
+				96CEA5381C063D550041DCC9 /* Map.hpp */,
+				96CEA53A1C0658840041DCC9 /* Game.cpp */,
+				96CEA53B1C0658840041DCC9 /* Game.hpp */,
+			);
+			path = Final;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CEA4E01C0253470041DCC9 /* Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CEA4E81C0253470041DCC9 /* Build configuration list for PBXNativeTarget "Final" */;
+			buildPhases = (
+				96CEA4DD1C0253470041DCC9 /* Sources */,
+				96CEA4DE1C0253470041DCC9 /* Frameworks */,
+				96CEA4DF1C0253470041DCC9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Final;
+			productName = Final;
+			productReference = 96CEA4E11C0253470041DCC9 /* Final */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CEA4D91C0253470041DCC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jason Cearley";
+				TargetAttributes = {
+					96CEA4E01C0253470041DCC9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 96CEA4DC1C0253470041DCC9 /* Build configuration list for PBXProject "Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96CEA4D81C0253470041DCC9;
+			productRefGroup = 96CEA4E21C0253470041DCC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CEA4E01C0253470041DCC9 /* Final */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CEA4DD1C0253470041DCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CEA51C1C0620910041DCC9 /* Goblin.cpp in Sources */,
+				96CEA5191C0620910041DCC9 /* Creature.cpp in Sources */,
+				96CEA5541C08C84A0041DCC9 /* RiotGear.cpp in Sources */,
+				96CEA53F1C075AFB0041DCC9 /* Player.cpp in Sources */,
+				96CEA53C1C0658840041DCC9 /* Game.cpp in Sources */,
+				96CEA5201C0620910041DCC9 /* Shadow.cpp in Sources */,
+				96CEA52A1C06390F0041DCC9 /* RoomTwo.cpp in Sources */,
+				96CEA5171C0620910041DCC9 /* Barbarian.cpp in Sources */,
+				96CEA54B1C08C1CA0041DCC9 /* Shield.cpp in Sources */,
+				96CEA5241C0621B60041DCC9 /* Room.cpp in Sources */,
+				96CEA5481C08B83D0041DCC9 /* BattleAxe.cpp in Sources */,
+				96CEA5391C063D550041DCC9 /* Map.cpp in Sources */,
+				96CEA4E51C0253470041DCC9 /* main.cpp in Sources */,
+				96CEA5181C0620910041DCC9 /* BlueMan.cpp in Sources */,
+				96CEA51F1C0620910041DCC9 /* Reptile.cpp in Sources */,
+				96CEA5331C063B2D0041DCC9 /* RoomFive.cpp in Sources */,
+				96CEA5421C08A8B70041DCC9 /* Weapons.cpp in Sources */,
+				96CEA5511C08C7190041DCC9 /* Sword.cpp in Sources */,
+				96CEA52D1C0639DB0041DCC9 /* RoomThree.cpp in Sources */,
+				96CEA54E1C08C5BF0041DCC9 /* Mace.cpp in Sources */,
+				96CEA5301C063A940041DCC9 /* RoomFour.cpp in Sources */,
+				96CEA5271C062E1A0041DCC9 /* RoomOne.cpp in Sources */,
+				96CEA51D1C0620910041DCC9 /* Menu.cpp in Sources */,
+				96CEA51A1C0620910041DCC9 /* Dice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96CEA4E61C0253470041DCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96CEA4E71C0253470041DCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96CEA4E91C0253470041DCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96CEA4EA1C0253470041DCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CEA4DC1C0253470041DCC9 /* Build configuration list for PBXProject "Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CEA4E61C0253470041DCC9 /* Debug */,
+				96CEA4E71C0253470041DCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CEA4E81C0253470041DCC9 /* Build configuration list for PBXNativeTarget "Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CEA4E91C0253470041DCC9 /* Debug */,
+				96CEA4EA1C0253470041DCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CEA4D91C0253470041DCC9 /* Project object */;
+}
